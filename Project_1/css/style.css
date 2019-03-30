@@ -1,0 +1,604 @@
+/* Style the header with a background and some padding */
+.header {
+  overflow: hidden;
+  background: linear-gradient(#343434, #222222);
+  padding: 30px 30px;
+  font-family:'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;    
+  color:white;    
+  text-align: center;
+}
+
+input{
+    margin-top: 10px;
+}
+#errorMsg{
+    background-color: rgb(255, 232, 232);
+    border: 1px solid red;
+    color: red;
+    display: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    margin-left: 75px;
+    padding: 10px 25px;
+    max-width: 250px;
+    text-align: left;
+}
+
+#validation{
+    width: 300px;
+    height: auto;
+    margin-top: 60px;
+    background-color: #FFFFFF;
+    float: right;
+    margin-right: 20%;
+}
+
+.g-recaptcha{
+    margin-left:75px; 
+    transform:scale(0.83);
+    -webkit-transform:scale(0.83);
+    transform-origin:0 0;
+    -webkit-transform-origin:0 0;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Source Sans Pro ExtraLight'), local('SourceSansPro-ExtraLight'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlxdr.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: white;
+  font-weight: 300;
+}
+body ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+body :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+body ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+body :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+
+.wrapper {
+  background: white;
+  position: absolute;
+  top: 55%;
+  left: 34%;
+  width: 32%;
+  height: 70%;
+  margin-top: -200px;
+  text-align: center;
+  overflow: hidden;
+}
+.wrapper.form-success .container h1 {
+  -webkit-transform: translateY(85px);
+          transform: translateY(85px);
+}
+
+.team {
+  max-width: 830px;
+  margin: 40px auto;
+  padding: 20px 0;
+  height: auto;
+  text-align: center;
+  background: white;
+  font-family: bold;   
+}
+
+.team img{
+    width : 30px;
+    height : 30px;
+}
+
+.team h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.sdul {
+  max-width: 830px;
+  margin: 40px auto;
+  padding: 20px 10px;
+  height: auto;
+  text-align: center;
+  background: white;
+  font-weight: bold;   
+}
+
+.sdul h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+
+.wrap{
+    width: 100%;
+}
+
+.viewpos{
+  max-width: 400px;  
+  padding: 20px 20px;
+  margin-top: 20px;    
+  height: auto;
+  float: left;
+  margin-left: 20px;    
+  text-align: center;
+  background: white;
+}
+
+.viewpos h2{
+    font-weight: 400;
+    font-family: bold;
+}
+
+.viewpos th{
+    font-family: bold;
+}
+
+.addpos{
+  max-width: 280px;    
+  padding: 20px 20px;
+  margin-top: 20px;    
+  height: auto;
+  float:left;    
+  text-align: center;
+  background: white;
+  font-family: bold;
+}
+
+.addpos-button {
+  background-color: #F68A1F;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 8px;    
+}
+
+.viewplayer{
+  max-width: 800px;  
+  margin-left: 20px;      
+  padding: 20px 20px;   
+  height: auto;
+  float: left;    
+  text-align: center;
+  background: white;  
+  font-family: bold;
+}
+
+.addplayer{
+  max-width: 240px;    
+  padding: 20px 20px;
+  margin-top: 20px;    
+  height: auto;
+  float: left;    
+  margin-left: 60px;
+  text-align: center;
+  background: white;
+  font-family: bold;
+}
+
+.viewseason{
+  max-width: 400px;
+  float: left;    
+  margin-left: 20px;    
+  padding: 20px 20px;
+  margin-top: 20px;    
+  height: auto;
+  text-align: center;
+  background: white; 
+  font-family: bold;
+}
+
+.addseason{
+  max-width: 230px;
+  float: left;    
+  padding: 20px 20px;
+  margin-top: 20px;    
+  height: auto;
+  margin-left: 60px;    
+  text-align: center;
+  background: white;  
+  font-family: bold;
+}
+
+.viewslseason{
+  max-width: 900px;
+  float: left;    
+  margin-left: 20px;    
+  padding: 20px 20px;
+  margin-top: 20px;    
+  height: auto;
+  text-align: center;
+  background: white; 
+  font-family: bold;
+}
+
+.addslseason{
+  max-width: 230px;
+  float: left;    
+  margin-left: 60px;    
+  padding: 20px 20px;
+  margin-top: 20px;    
+  height: auto;
+  text-align: center;
+  background: white; 
+  font-family: bold;
+}
+
+.viewteam{
+  max-width: 1200px;
+  float: left;    
+  margin-left: 20px;     
+  padding: 20px 20px;
+  margin-top: 20px;    
+  height: auto;
+  text-align: center;
+  background: white; 
+  font-family: bold; 
+}
+
+.addteam{
+  max-width: 230px;
+  float: left;    
+  margin-left: 60px;    
+  padding: 20px 20px;
+  margin-top: 20px;    
+  height: auto;
+  text-align: center;
+  background: white;
+  font-family: bold;
+}
+
+.viewschedule{
+  max-width: 1200px;
+  float: left;    
+  margin-left: 20px;     
+  padding: 20px 20px;
+  margin-top: 20px;    
+  height: auto;
+  text-align: center;
+  background: white; 
+  font-family: bold;   
+}
+
+.addschedule{
+  max-width: 230px;
+  float: left;    
+  margin-left: 20px;    
+  padding: 20px 20px;
+  margin-top: 0px;    
+  height: auto;
+  text-align: center;
+  background: white;
+  font-family: bold;    
+}
+
+.viewuser{
+  max-width: 1000px;
+  float: left;    
+  margin-left: 20px;     
+  padding: 20px 20px;
+  margin-top: 20px;    
+  height: auto;
+  text-align: left;
+  background: white; 
+  font-family: bold; 
+}
+
+.adduser{
+  max-width: 230px;
+  float: left;    
+  margin-left: 60px;    
+  padding: 20px 20px;
+  margin-top: 20px;    
+  height: auto;
+  text-align: center;
+  background: white;
+  font-family: bold;   
+}
+
+.viewsport{
+  max-width: 1000px;
+  float: left;    
+  margin-left: 20px;     
+  padding: 20px 20px;
+  margin-top: 20px;    
+  height: auto;
+  text-align: center;
+  background: white;  
+  font-family: bold;     
+}
+
+.addsport{
+  max-width: 230px;
+  float: left;    
+  margin-left: 60px;    
+  padding: 20px 20px;
+  margin-top: 20px;    
+  height: auto;
+  text-align: center;
+  background: white;
+  font-family: bold;       
+}
+
+#login-button{
+   background-color: #F68A1F; 
+   color: white;    
+}
+.addplayer-button, .delplayer-button, .editplayer-button, .deluser-button, .edituser-button, .adduser-button, .delseason-button, .editseason-button, .addseason-button, .delslseason-button, .editslseason-button, .addslseason-button, .delteam-button, .editteam-button, .addteam-button, .delschedule-button, .editschedule-button, .delleguser-button, .editleguser-button, .addleguser-button, .deladminuser-button, .editadminuser-button, .addadminuser-button, .delsport-button, .editsport-button, .addsport-button, .addsport-button{
+  border: none;
+  background-color: #F68A1F;    
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 8px; 
+}
+
+input[type=text]{
+    width: 100%
+}
+
+.custom-select {
+    width: 85%;
+}
+
+.container {
+  max-width: 400px;
+  margin: -20px auto;
+  padding: 80px 0;
+  height: 500px;
+  text-align: center;
+}
+.container h1 {
+  font-size: 40px;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-put;
+  font-weight: 200;
+}
+.form {
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+.form input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 250px;    
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: grey;
+  transition-duration: 0.25s;
+  font-weight: 300;
+}
+.form input:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.form input:focus {
+  width: 300px;
+  color: grey;
+}
+.form button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #53e3a6;
+  border-radius: 3px;
+  width: 250px;
+  cursor: pointer;
+  font-size: 18px;
+  transition-duration: 0.25s;
+}
+.form button:hover {
+  background-color: #f5f7f9;
+}
+
+.form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: dimgrey;
+}
+.form input::-moz-placeholder { /* Firefox 19+ */
+  color: dimgrey;
+}
+.form input:-ms-input-placeholder { /* IE 10+ */
+  color: dimgrey;
+}
+.form input:-moz-placeholder { /* Firefox 18- */
+  color: dimgrey;
+}
+
+.ipl{
+    float: left;
+    width: 70px;
+}
+
+.epl{
+    float: right;
+    width: 130px;
+}
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu {
+  width: auto;
+  border-bottom: 3px solid #F68A1F;
+  font-family: Raleway, sans-serif;
+  line-height: 1;    
+}
+
+#cssmenu ul {
+  background: linear-gradient(#343434, #222222);
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu.align-right > ul > li > a {
+  margin-right: 0;
+  margin-left: -4px;
+}
+#cssmenu > ul > li > a {
+  z-index: 2;
+  padding: 18px 25px 12px 25px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #FFFFFF;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin-right: -4px;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover {
+  color: #ffffff;
+}
+#cssmenu > ul > li > a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  content: "";
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: perspective(5px) rotateX(2deg);
+  -webkit-transform-origin: bottom;
+  -moz-transform: perspective(5px) rotateX(2deg);
+  -moz-transform-origin: bottom;
+  transform: perspective(5px) rotateX(2deg);
+  transform-origin: bottom;
+}
+#cssmenu > ul > li.active > a:after,
+#cssmenu > ul > li:hover > a:after,
+#cssmenu > ul > li > a:hover:after {
+  background: #F68A1F;
+}
+
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  max-width: 100%;
+  display: inline-flex;
+  position: relative;
+  overflow-x: scroll;
+}
+
+td,th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background: linear-gradient(#343434, #222222);
+  color: white;
+}
+
+.banner{
+    height: 5px;
+    width: 100%;
+    overflow: auto;
+    background: #F68A1F;
+    margin-top: auto;
+}
+
