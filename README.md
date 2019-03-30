@@ -1,0 +1,2 @@
+# PHP-Application
+The sports league application is about accessing the content of various mysql table based on the roles and permission. For example. an admin can access all the resources and can edit/add/delete/view and perform any operation they want. The league manager has access that are limited to the league they belong to. Further, coach, team manager, and parent are bounded by their own team. They can perform operations only on their team.
